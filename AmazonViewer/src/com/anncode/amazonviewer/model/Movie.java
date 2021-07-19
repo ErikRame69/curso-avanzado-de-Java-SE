@@ -66,6 +66,13 @@ public class Movie extends Film implements IVisualizable {
 		
 		return movies;
 	}
+
+
+	@Override
+	public void view() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
 
