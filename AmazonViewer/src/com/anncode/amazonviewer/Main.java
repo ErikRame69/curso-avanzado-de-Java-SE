@@ -14,19 +14,45 @@ import com.anncode.amazonviewer.model.Serie;
 import com.anncode.makereport.Report;
 import com.anncode.util.AmazonUtil;
 
+
+/**
+ * <h1>Amazon Viewer </h1>
+ * Amazon es un programa multiplataforma de entretenimiento, en amazon podemos adquirir, rentar y ver peliculas.
+ * <p>
+ * Podemos ingresar a traves de la membresia PRIME
+ * <p>
+ * <h2>Amazon Books y Magazines</h2>
+ * <p>
+ * Nos permite generar un reporte general y con fecha del día.
+ * <p>
+ * Existen algunas otras reglas como que todod los elementos pueden ser visualizadoso leidos a excepcion de los <p> magazines, estas solo pueden
+ * ser vistas a modo de exposicion sin ser leidas.
+ * 
+ * @author erikd
+ * @version 1.1
+ * @since 2021
+ *  
+ * */
+
+
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Film film = new Movie("", "", "", 1, (short)1999);
 		film.view();
-		
 		showMenu();
 	}
 	
 	public static void showMenu() {
 		int exit = 0;
 		do {
+			
+			/**
+			 * Esto nos imprime en pantalla las opciones del menu.
+			 * <p>
+			 * @author erikd
+			 * */
 			
 			System.out.println("BIENVENIDOS AMAZON VIEWER");
 			System.out.println("");

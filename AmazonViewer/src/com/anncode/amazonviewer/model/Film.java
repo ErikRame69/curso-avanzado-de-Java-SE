@@ -1,5 +1,18 @@
 package com.anncode.amazonviewer.model;
 
+/**
+ * <h1>FILM</h1>
+ * Film es una clase padre abstracta
+ * <p>
+ * Esta es una clase base de la familia films, como es abstracta no se pueden crear instacias.
+ * <p>
+ * Contiene el metodo abstracto view {@code view()}
+ * Que es obligatorio implementar para todo aquel que pertenezca a la familia.
+ * 
+ * @author anncode
+ * @version 1.1
+ * */
+
 public abstract class Film {
 	
 	private String title;
@@ -67,7 +80,9 @@ public abstract class Film {
 		this.viewed = viewed;
 	}
 	
-	
+	/**
+	 *{@code view()} es un metodo abstracto obligatorio de implementar.
+	 **/
 	public abstract void view();
 
 }

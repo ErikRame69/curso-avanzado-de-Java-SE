@@ -3,6 +3,11 @@ package com.anncode.amazonviewer.model;
 import java.util.ArrayList;
 import java.util.Date;
 
+/**
+ * Esta seccion nos permite ver los datos de los libros que hayamos elegido leer o simplemente visualizar
+ * @version 1.2
+ * {@code @override} sobreescribimos los metodos para poder cargar menos al main. 
+ * */
 public class Book extends Publication implements IVisualizable {
 	private int id;
 	private String isbn;

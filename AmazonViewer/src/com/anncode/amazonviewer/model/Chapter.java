@@ -2,6 +2,14 @@ package com.anncode.amazonviewer.model;
 
 import java.util.ArrayList;
 
+/**
+ * Nos genera la informacion en pantalla para que el usuario pueda elegir la que mas le convenga.
+ * @author anncode
+ * Hereda de {@link Movie}
+ * @see Film
+ * 
+ * */
+
 public class Chapter extends Movie {
 	
 	
@@ -74,7 +82,7 @@ public class Chapter extends Movie {
 			}	
 		}
 		if (chapterViewedCounter == chapters.size()) {
-			getSerie().setViewed(true);	
+			getSerie().view();
 		}
 	}
 	
