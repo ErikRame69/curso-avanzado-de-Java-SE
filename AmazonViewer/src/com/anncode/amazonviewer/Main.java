@@ -38,9 +38,9 @@ import com.anncode.util.AmazonUtil;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		/* TODO Auto-generated method stub
 		Film film = new Movie("", "", "", 1, (short)1999);
-		film.view();
+		film.view();*/
 		showMenu();
 	}
 	
