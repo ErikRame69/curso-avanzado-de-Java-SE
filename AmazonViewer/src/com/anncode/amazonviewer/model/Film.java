@@ -59,7 +59,7 @@ public abstract class Film {
 		
 		return visto;
 	}
-	
+	 
 	public boolean getIsViewed() {
 		return viewed;
 	}

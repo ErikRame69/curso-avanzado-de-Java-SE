@@ -11,7 +11,6 @@ public class Serie extends Film {
 
 	public Serie(String title, String genre, String creator, int duration, int sessionQuantity) {
 		super(title, genre, creator, duration);
-		// TODO Auto-generated constructor stub
 		this.sessionQuantity = sessionQuantity;
 	}
 	
@@ -49,10 +48,10 @@ public class Serie extends Film {
 	}
 
 	public static ArrayList<Serie> makeSeriesList() {
-		ArrayList<Serie> series = new ArrayList();
+		ArrayList<Serie> series = new ArrayList<>();
 		
 		for (int i = 1; i <= 5; i++) {
-			Serie serie = new Serie("Serie "+i, "genero "+i, "creador "+i, 1200, 5);
+			Serie serie = new Serie("Serie "+i, "genero "+i, "creador "+i, 1200 + i, 5 +i);
 			serie.setChapters(Chapter.makeChaptersList(serie));
 			series.add(serie);
 			
