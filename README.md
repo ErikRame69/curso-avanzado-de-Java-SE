@@ -4,14 +4,19 @@
 ## ¿Qué vimos en el curso?  
 El **Curso  Avanzado de Java SE** como tal nos explica que no existe una fase de java avanzado, sino, que en el vemos conceptos, funciones, metodo y clases un poco mas complejas.
 En el curso nos enseña el uso de funciones como las interfaces funcionales, las clases abstractas, las nuevas umplementaciones de default y private en java 8 y 9entre muchas otras.
+
 En este curso trabajamos con un proyecto llamado amazon viewer donde podiamos accedes a contenido multimedia, y consular otro tipo de archivos como libros o revistas.
+
 En el proyecto reamos la nueva rama o branch la llamamada experimental, donde tambien se realizaron cambio.
+
 EN el momento en que empezamos a preparar el proyecto para una futura conexion con una base de datos creamos otra rana llamada DAO donde preparamso el proyecto para su futura coneccion.
+
 Tambien creamos una rama lamada SQL y lambdas donde se realizaron los cambios pertienentes y en lambas se agregaron las especificaciones y ejercicios de lambdas.
 
 ## Problemas del Curso
 Iniciamos el proyecto clonando el repositorio desde git, hubo complicaciones de coneccion con el repositorio, posteriormente borramos la coneccion que tenia establecida con el 
 repositorio de anncode (La instructora del curso), cambiamos la coneccion a mi repositorio en GitHub para poder hacer pull, commit y push al repositorio remoto ya que en la otra conexion no nos permitia hacerlo de manera correcta y tampoco tendriamos evidencia del curso (Este fue un problema un poco serio ya que debido a ello perdi la mitad del curso), una vez listo todo mandamos los datos hacia mi repositorio previamente añadid,o partimos de la rama o **Branch** 31.MakeReportAllEntities, posterior a ello realizamos unos cambios y los guardamos.
+
 Hubo momento en los que el codigo tenia errores debido a problemas del codigo que venian desde el repositorio de ann code, ya que como corrobore yo mismo y basado en la experiencia de los dema usuario este curso tenia errores que se borraron detras de camara, pero con una buena revision se soluvionaron los problemas (la mayoria de los errores venia desde el inicio), auqnue si era dificil porque no entendiamos el porque de las cosas debido a que el curso donde se realizo elproyecto ahora no existe.
 
 ### ProyectoAmazon Viewer
