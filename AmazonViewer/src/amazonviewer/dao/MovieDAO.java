@@ -20,7 +20,7 @@ public interface MovieDAO extends IDBConnection{
 	default ArrayList<Movie> read(){
 		ArrayList<Movie> movies = new ArrayList<>();
 		try(Connection connection = connectToDB()){
-			String query = "SELECT * FROM " + TMOVIE;
+			String query = "SELECT*FROM " + TMOVIE;
 			
 			PreparedStatement preparedStatement = connection.prepareStatement(query);
 			
@@ -35,6 +35,7 @@ public interface MovieDAO extends IDBConnection{
 						Short.valueOf(rs.getString(TMOVIE_YEAR)));
 				
 				movie.setId(Integer.valueOf(rs.getString(TMOVIE_ID)));
+				movies.add(movie);
 								
 			}
 		}catch (SQLException e) {
