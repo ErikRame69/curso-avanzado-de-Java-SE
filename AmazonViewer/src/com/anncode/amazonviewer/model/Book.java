@@ -45,7 +45,7 @@ public class Book extends Publication implements IVisualizable {
 	public String isReaded() {
 		String leido = "";
 		if(readed == true) {
-			leido = "Sí";
+			leido = "Si";
 		}else {
 			leido = "No";
 		}
