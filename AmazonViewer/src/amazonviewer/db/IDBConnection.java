@@ -6,6 +6,7 @@ import static amazonviewer.db.DataBase.*;
 
 public interface IDBConnection {
 	
+	@SuppressWarnings("finally")
 	default Connection connectToDB() {
 		Connection connection = null;
 		

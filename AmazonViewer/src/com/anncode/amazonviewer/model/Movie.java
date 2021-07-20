@@ -89,8 +89,9 @@ public class Movie extends Film implements IVisualizable, MovieDAO {
 		// TODO Auto-generated method stub
 		setViewed(true);
 		Date dateI = startToSee(new Date());
-		
-		for (int i = 0; i < 20; i++) {
+		Movie movie = new Movie();
+		movie.setMovieViewed(this);
+		for (int i = 0; i < 10; i++) {
 			System.out.println("..........");
 		}
 		
