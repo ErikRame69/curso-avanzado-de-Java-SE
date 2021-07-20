@@ -142,6 +142,7 @@ public class Main {
 		
 	}
 	static ArrayList<Serie> series = Serie.makeSeriesList();
+	
 	public static void showSeries() {
 		int exit = 1;
 		
