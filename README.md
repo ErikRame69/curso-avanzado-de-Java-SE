@@ -9,7 +9,7 @@ En este curso trabajamos con un proyecto llamado amazon viewer donde podiamos ac
 
 En el proyecto reamos la nueva rama o branch la llamamada experimental, donde tambien se realizaron cambio.
 
-EN el momento en que empezamos a preparar el proyecto para una futura conexion con una base de datos creamos otra rana llamada DAO donde preparamso el proyecto para su futura coneccion.
+En el momento en que empezamos a preparar el proyecto para una futura conexion con una base de datos creamos otra rana llamada DAO donde preparamso el proyecto para su futura coneccion.
 
 Tambien creamos una rama lamada SQL y lambdas donde se realizaron los cambios pertienentes y en lambas se agregaron las especificaciones y ejercicios de lambdas.
 
