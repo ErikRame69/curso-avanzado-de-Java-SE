@@ -17,5 +17,8 @@ public class Main {
 
         oneListener.onOne(" Sin Lambda :(");
         oneListener2.onOne("Con Lambda :)");
+
+        OnOneListener oneListener3 = message -> System.out.println("Tu mensaje:  " + message);
+        oneListener3.onOne("Mas reducido perros B)");
     }
 }
